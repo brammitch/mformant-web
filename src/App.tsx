@@ -3,6 +3,8 @@ import logo from './img/logo.png';
 import './App.css';
 
 const App: React.FC = () => {
+	console.log(process.env.GCLOUD_PROJECT);
+	console.log(process.env.FIREBASE_CONFIG);
 	return (
 		<div className="App">
 			<header className="App-header">
